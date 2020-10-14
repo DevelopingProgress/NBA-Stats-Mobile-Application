@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewPlayoffs"
+
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:shrinkColumns = "0,1"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:fontFamily="monospace"
+                android:text="Round:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/round"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:fontFamily="monospace"
+                android:text="Team 1:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace" />
+
+            <TextView
+                android:id="@+id/score1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:baselineAligned="false"
+                android:fontFamily="monospace"
+                android:text="Team 2:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace" />
+        </TableRow>
+
+        <TableRow android:orientation="vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:fontFamily="monospace"
+                android:text="Conference:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/conference"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:fontFamily="monospace"
+                android:text="Note:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewBoxscore"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp">
+
+
+
+        <TableLayout
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:stretchColumns="*">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:text="Team:"
+                    android:id="@+id/VteamName"/>
+
+            <TableRow>
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Name"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Last Name"  android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="NR"  android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Min"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   android:text="PTS"  android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="REB"  android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="AST" android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BLK" android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="STL" android:textStyle="bold"/>
+
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/VteamPName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamNR"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+
+                <TextView
+                    android:id="@+id/VteamMIN"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamPTS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamRBS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamATS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamBLK"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/VteamSTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="10sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>

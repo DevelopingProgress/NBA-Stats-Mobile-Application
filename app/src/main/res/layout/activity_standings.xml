@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewStandings"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="City"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="TRI"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="W"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="L"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="W%"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:text="STR"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/teamName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/teamNickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/teamTricode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/teamWin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/teamLoss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="4"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/winPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="5"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/teamStreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="6"
+                android:fontFamily="monospace"
+                android:textSize="10sp" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>
